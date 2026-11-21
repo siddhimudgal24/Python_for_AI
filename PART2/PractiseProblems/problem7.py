@@ -1,5 +1,4 @@
 # Create a function to compute factorial of a number
-n = int(input("Enter the value of n here:"))
 def factorial(n):
     fact = 1
     i = 1
@@ -8,4 +7,5 @@ def factorial(n):
         i+=1
     return fact
 
-print(factorial(n))
+n = int(input("Enter the value of n here:"))
+print(factorial(20))
