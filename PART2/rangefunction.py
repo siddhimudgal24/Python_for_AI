@@ -19,7 +19,7 @@ for i in range(1,6):
 
 #output: 1,2,3,4,5
 
-#3 arguments - start,stop,step
+#3 arguments - start,stop,step 
 print("using three argumnets")
 for i in range(1,10,2):
     print(i)
