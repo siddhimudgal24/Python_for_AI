@@ -1,6 +1,6 @@
 #write a function to return the count the number
 #of digits in a number , n
-def digitsinNum(n):
+def countOfDigits(n):
     count = 0
     while(n!=0):
         rem = n%10
@@ -9,4 +9,4 @@ def digitsinNum(n):
     return count
 
 n = int(input("Enter the value of n here:"))
-print(digitsinNum(n))
+print(countOfDigits(n))
