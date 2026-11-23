@@ -15,3 +15,16 @@ print(my_list2)
 #List characterstics
 # 1) Ordered,Mutable,Allows Duplicates,Heterogenous
 
+#List Indexing
+#Access Elements
+
+fruits = ["apple","banana","cherry"]
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+#Modify Elements 
+
+my_list1 = [1,2,3,4]
+my_list1[0] = 10
+print(my_list1) #[10,2,3,4]
